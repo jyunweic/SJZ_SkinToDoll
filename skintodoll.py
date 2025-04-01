@@ -3,9 +3,9 @@ import json
 
 
 def create_doll_json():
-    base_items_path = r"C:/Users/chenjyunwei/AppData/Roaming/PrismLauncher/instances/1.21.4/minecraft/resourcepacks/SJZ_ResourcePack_v1/assets/minecraft/items"
-    base_models_path = r"C:/Users/chenjyunwei/AppData/Roaming/PrismLauncher/instances/1.21.4/minecraft/resourcepacks/SJZ_ResourcePack_v1/assets/minecraft/models/item"
-    base_textures_path = r"C:/Users/chenjyunwei/AppData/Roaming/PrismLauncher/instances/1.21.4/minecraft/resourcepacks/SJZ_ResourcePack_v1/assets/minecraft/textures/item/dolls"
+    base_items_path = r"C:/Users/chenjyunwei/AppData/Roaming/PrismLauncher/instances/1.21.4(1)/minecraft/resourcepacks/SJZ_ResourcePack/assets/minecraft/items"
+    base_models_path = r"C:/Users/chenjyunwei/AppData/Roaming/PrismLauncher/instances/1.21.4(1)/minecraft/resourcepacks/SJZ_ResourcePack/assets/minecraft/models/item"
+    base_textures_path = r"C:/Users/chenjyunwei/AppData/Roaming/PrismLauncher/instances/1.21.4(1)/minecraft/resourcepacks/SJZ_ResourcePack/assets/minecraft/textures/item/dolls"
     template_path = os.path.join(base_models_path, "doll_template.json")
     
     player_id = input("請輸入 player_ID: ").strip()
