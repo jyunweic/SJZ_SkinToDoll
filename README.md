@@ -1,6 +1,8 @@
 ## SJZ_SkinToDoll
 方便管理員協助玩家製作專屬玩偶材質的小py
 
+### ・0402新增：自動抓取玩家skin，存至textures/item/dolls
+並生成sha-1，管理員僅需至server.properties 更改 sha-1 即可。
 
 ## 主要功能：
 ### ・檢查玩家皮膚檔案是否存在：
