@@ -11,6 +11,7 @@
 
 ### ・生成兩個 JSON 文件：
 items/doll_{player_id}.json：定義物品的模型路徑。
+
 models/item/doll_{player_id}.json：定義 3D 模型的結構、貼圖及顯示方式。
 
 ### ・確保目錄存在：
